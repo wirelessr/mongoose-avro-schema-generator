@@ -19,7 +19,7 @@ The Mongoose Avro Schema Generator requires `node >= 9.2.0`. The only dependency
 ### Installation
 Using yarn:
 ```shell
-yarn add @researchgate/mongoose-avro-schema-generator
+yarn add mongoose-avro-schema-generator@https://github.com/wirelessr/mongoose-avro-schema-generator
 ```
 
 Using npm:
@@ -39,7 +39,7 @@ mongoose.model('mySchema', schema);
 ```
 Now we instantiate the Mongoose Avro Schema Generator with a the mongoose instance.
 ```js
-const Generator = require('@researchgate/mongoose-avro-schema-generator');
+const Generator = require('mongoose-avro-schema-generator');
 const mongooseAvroSchemaGenerator = new Generator(mongoose);
 ```
 Then `mongooseAvroSchemaGenerator.generate()` will output an array of all generated schemas.
