@@ -24,7 +24,7 @@ yarn add mongoose-avro-schema-generator@https://github.com/wirelessr/mongoose-av
 
 Using npm:
 ```shell
-npm install @researchgate/mongoose-avro-schema-generator
+npm install mongoose-avro-schema-generator@https://github.com/wirelessr/mongoose-avro-schema-generator
 ```
 
 ### Quick Start
